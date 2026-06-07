@@ -11,7 +11,7 @@ import { Textarea } from '@/components/ui/textarea'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { toast } from 'sonner'
 import { slugify } from '@/lib/utils'
-import { ArrowLeft, Loader2, Save } from 'lucide-react'
+import { ArrowLeft, Loader as Loader2, Save } from 'lucide-react'
 import { useEffect } from 'react'
 import type { Category } from '@/types'
 
