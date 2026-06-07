@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import { createClient } from '@/lib/supabase/client'
 import { toast } from 'sonner'
-import { Loader2, ShoppingCart } from 'lucide-react'
+import { Loader as Loader2, ShoppingCart } from 'lucide-react'
 import type { Product } from '@/types'
 
 export default function AddToCartButton({ product }: { product: Product }) {

@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { formatPrice } from '@/lib/utils'
-import { Loader2, CreditCard, Lock } from 'lucide-react'
+import { Loader as Loader2, CreditCard, Lock } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 import { toast } from 'sonner'
 

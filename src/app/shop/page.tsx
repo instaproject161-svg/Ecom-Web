@@ -10,7 +10,7 @@ import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
 import type { Product, Category } from '@/types'
 import { formatPrice } from '@/lib/utils'
-import { Loader2, Search } from 'lucide-react'
+import { Loader as Loader2, Search } from 'lucide-react'
 
 function ShopContent() {
   const [products, setProducts] = useState<Product[]>([])
